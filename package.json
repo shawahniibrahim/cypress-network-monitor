@@ -1,0 +1,46 @@
+{
+  "name": "cypress-network-monitor",
+  "version": "1.0.0",
+  "description": "A Cypress plugin that monitors network requests and automatically retries tests when 500 errors are detected",
+  "main": "dist/cypress-network-monitor.js",
+  "scripts": {
+    "test": "cypress run",
+    "start-mock-server": "node mock-server.js"
+  },
+  "keywords": [
+    "cypress",
+    "network",
+    "monitoring",
+    "retry",
+    "error",
+    "500",
+    "testing",
+    "cypress-plugin",
+    "test-automation"
+  ],
+  "author": "Ibrahim Shawahni <shawahniibrahim@gmail.com> (https://softwareqaservice.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/cypress-network-monitor.git"
+  },
+  "homepage": "https://ldhbwbex.manus.space",
+  "bugs": {
+    "url": "https://github.com/yourusername/cypress-network-monitor/issues"
+  },
+  "files": [
+    "dist/cypress-network-monitor.js",
+    "dist/README.md"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "peerDependencies": {
+    "cypress": ">=10.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
