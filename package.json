@@ -14,6 +14,7 @@
     "retry",
     "error",
     "500",
+    "network-error",
     "testing",
     "cypress-plugin",
     "test-automation"
