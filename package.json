@@ -1,6 +1,6 @@
 {
   "name": "cypress-network-monitor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Cypress plugin that monitors network requests and automatically retries tests when 500 errors are detected",
   "main": "dist/cypress-network-monitor.js",
   "scripts": {
